@@ -2,6 +2,9 @@
   "item.firstmod.sapphire": "Sapphire",
   "item.firstmod.raw_sapphire": "Raw Sapphire",
   "item.firstmod.condu": "Wand of Conduction",
+  "item.firstmod.madrobe": "Robe of the Mad Scientist",
+
+  "block.firstmod.sapphire_block": "Sapphire Block",
 
   "creativetab.mod_tab": "Sapphire Mod Tab"
 }

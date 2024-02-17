@@ -19,6 +19,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> CONDU = ITEMS.register("condu",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MADROBE = ITEMS.register("madrobe",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

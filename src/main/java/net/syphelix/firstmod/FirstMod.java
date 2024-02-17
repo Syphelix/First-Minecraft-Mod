@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.syphelix.firstmod.block.ModBlocks;
 import net.syphelix.firstmod.item.ModCreativeModeTabs;
 import net.syphelix.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class FirstMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -48,6 +50,7 @@ public class FirstMod {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
             event.accept(ModItems.CONDU);
+            event.accept(ModItems.MADROBE);
         }
     }
 
