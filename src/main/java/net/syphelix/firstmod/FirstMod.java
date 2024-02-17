@@ -51,6 +51,7 @@ public class FirstMod {
             event.accept(ModItems.RAW_SAPPHIRE);
             event.accept(ModItems.CONDU);
             event.accept(ModItems.MADROBE);
+            event.accept(ModItems.REALMIUMSTICK);
         }
     }
 
