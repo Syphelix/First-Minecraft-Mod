@@ -23,6 +23,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MADROBE.get());
                         output.accept(ModItems.CONDU.get());
                         output.accept(ModItems.REALMIUMSTICK.get());
+                        output.accept(ModItems.REALMIUMESSENCE.get());
+                        output.accept(ModItems.EXPO.get());
+                        output.accept(ModItems.FULMI.get());
+                        output.accept(ModItems.REALMIUMINGOT.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .build());

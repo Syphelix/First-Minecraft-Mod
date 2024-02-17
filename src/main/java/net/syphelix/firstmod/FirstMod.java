@@ -52,6 +52,10 @@ public class FirstMod {
             event.accept(ModItems.CONDU);
             event.accept(ModItems.MADROBE);
             event.accept(ModItems.REALMIUMSTICK);
+            event.accept(ModItems.REALMIUMESSENCE);
+            event.accept(ModItems.EXPO);
+            event.accept(ModItems.FULMI);
+            event.accept(ModItems.REALMIUMINGOT);
         }
     }
 

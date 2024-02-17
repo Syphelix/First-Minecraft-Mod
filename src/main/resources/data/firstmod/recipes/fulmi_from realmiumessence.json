@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxg",
+    "x#x",
+    "#xx"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:realmiumstick"
+    },
+    "x": {
+      "item": "firstmod:realmiumingot"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "firstmod:fulmi"
+  }
+}

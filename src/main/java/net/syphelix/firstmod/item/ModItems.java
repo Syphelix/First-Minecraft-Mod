@@ -23,6 +23,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REALMIUMSTICK = ITEMS.register("realmiumstick",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REALMIUMESSENCE = ITEMS.register("realmiumessence",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EXPO = ITEMS.register("expo",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FULMI = ITEMS.register("fulmi",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REALMIUMINGOT = ITEMS.register("realmiumingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
